@@ -688,7 +688,7 @@ AC_ARG_ENABLE([plugin-audiobridge],
                               [Disable audiobridge plugin])],
               [AS_IF([test "x$enable_plugin_audiobridge" != "xyes"],
                      [enable_plugin_audiobridge=no])],
-              [enable_plugin_audiobridge=maybe])
+              [enable_plugin_audiobridge=yes])
 
 AC_ARG_ENABLE([plugin-duktape],
               [AS_HELP_STRING([--enable-plugin-duktape],
